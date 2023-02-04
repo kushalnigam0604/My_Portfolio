@@ -40,14 +40,14 @@ header {
 /* =========My Image======== */
 
 .myImage {
-  width: 50%;
+  width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2rem;
 }
 .myImage img {
-    width: 50%;
+    width: auto;
     height: 20rem;
     margin: auto;
     border-radius: 2rem;
