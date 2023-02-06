@@ -1,6 +1,6 @@
 header {
   /* height: 100vh; */
-  padding-top: 5rem;
+  padding-top: 3rem;
   /* overflow: hidden; */
 }
 .header__container {
@@ -65,3 +65,16 @@ header {
     font-size: 0.9rem;
 }
 
+/* ========Media Query(Medium Devices) ======== */
+
+@media screen and (max-width: 1024px) {
+  
+}
+
+/* ========Media Query(Small Devices) ======== */
+
+@media screen and (max-width: 600px) {
+  .header__socials,.scroll__down{
+    display: none;
+  }
+}
