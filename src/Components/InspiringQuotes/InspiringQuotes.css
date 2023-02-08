@@ -1,0 +1,45 @@
+.container.quotes__container{
+    width: 45%;
+}
+.avtar{
+    width: 5rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    border: 0.2rem solid var(--color-primary-variant);
+}
+.quotes{
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+.avtar__quote{
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+}
+
+/* ========Media Query(Medium Devices) ======== */
+
+@media screen and (max-width: 1024px) {
+    .container.quotes__container{
+        width: 70%;
+    }
+  }
+  
+  /* ========Media Query(Small Devices) ======== */
+  
+  @media screen and (max-width: 600px) {
+      .container.quotes__container{
+          width: var(--container-width-sm);
+      }
+      .avtar__quote{
+          width: var(--container-width-sm);
+      }
+  }
+  
