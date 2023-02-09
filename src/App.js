@@ -4,7 +4,6 @@ import Navbar from './Components/Navbar/Navbar';
 import About from './Components/About/About';
 import Experience from './Components/Experience/Experience';
 import Portfolio from './Components/Portfolio/Portfolio';
-import Footer from './Components/Footer/Footer';
 import Contact from './Components/Contact/Contact';
 import InspiringQuotes from './Components/InspiringQuotes/InspiringQuotes';
 
@@ -18,7 +17,6 @@ function App() {
       <Portfolio/>
       <InspiringQuotes/>
       <Contact/>
-      <Footer/>
     </>
   );
 }
