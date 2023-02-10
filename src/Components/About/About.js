@@ -35,7 +35,7 @@ const About = () => {
             <small>10+ Projects</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, quos minima? Enim velit voluptas nisi sequi. Voluptatibus omnis, odit eos deleniti iure, rem odio necessitatibus voluptatem ea sapiente, ad error?</p>
+          <p>Experienced Software Engineer with a demonstrated history of working in the software development industry. I enjoy learning new technology, doing programming, analyzing and fixing issues, and making new things.</p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>

@@ -9,6 +9,9 @@
     margin: 0 auto 1rem;
     border: 0.2rem solid var(--color-primary-variant);
 }
+.quotes__container .swiper-slide{
+    height: auto;
+}
 .quotes{
     background: var(--color-bg-variant);
     text-align: center;
