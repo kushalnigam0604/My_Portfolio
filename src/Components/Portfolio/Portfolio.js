@@ -1,30 +1,54 @@
 import React from "react";
 import "./Portfolio.css";
-import Img_1 from "../../assets/portfolio_1.webp";
-import Img_2 from "../../assets/portfolio_2.webp";
-import Img_3 from "../../assets/portfolio_3.webp";
 
 const data = [
   {
     id: 1,
-    image: Img_1,
+    title: "YouTube Clone",
+    github: "https://github.com/kushalnigam0604/Youtube_Clone_App",
+    demo: "https://my-youtube-clone-001.netlify.app/",
+  },
+  {
+    id: 2,
+    title: "Amazon Clone",
+    github: "https://github.com/kushalnigam0604/Amazon_Clone",
+    demo: "https://clone-fec1a.web.app/",
+  },
+  {
+    id: 3,
     title: "Camping Website",
     github: "https://github.com/kushalnigam0604/Camping_Web_App",
     demo: "https://camping-website.onrender.com/",
   },
   {
-    id: 2,
-    image: Img_2,
+    id: 4,
+    title: "News App",
+    github: "https://github.com/kushalnigam0604/News-App",
+    demo: "https://indian-news-app.netlify.app/",
+  },
+  {
+    id: 5,
     title: "Notes App",
     github: "https://github.com/kushalnigam0604/Notes_App",
     demo: "https://kushalnigam0604.github.io/Notes_App/",
   },
   {
-    id: 3,
-    image: Img_3,
+    id: 6,
     title: "TextUtils App",
     github: "https://github.com/kushalnigam0604/TextUtils_App",
     demo: "https://textutility-app.netlify.app/",
+  },
+  {
+    id: 7,
+    title: "Expense Tracker",
+    github: "https://github.com/kushalnigam0604/ExpenseTracker",
+    demo: "https://expense-tracker-com.netlify.app/",
+  },
+  {
+    id: 8,
+    title: "Todo App",
+    github: "https://github.com/kushalnigam0604/To_Do_App",
+    demo: "https://to-do-app-xyz.netlify.app/",
   },
 ];
 
@@ -34,12 +58,9 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, title, github, demo }) => {
           return (
             <article key={id} className="portfolio__item">
-              <div className="portfolio__item-image">
-                <img src={image} alt={title} />
-              </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
                 <a
